@@ -6,8 +6,20 @@
 /*   By: thandel <thandel@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/04 16:18:59 by thandel           #+#    #+#             */
-/*   Updated: 2022/10/07 13:00:12 by thandel          ###   ########.fr       */
+/*   Updated: 2022/10/07 14:57:44 by thandel          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
+
+int	ft_isprint(int c)
+{
+	if (c <= 126 && c >= 32)
+		return (1);
+	return (0);
+}
+/*
+int	main(void)
+{
+	printf("%d\n", ft_isprint('e'));
+}*/
