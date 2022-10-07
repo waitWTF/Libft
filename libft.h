@@ -6,7 +6,7 @@
 /*   By: thandel <thandel@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/03 12:43:38 by thandel           #+#    #+#             */
-/*   Updated: 2022/10/07 14:35:25 by thandel          ###   ########.fr       */
+/*   Updated: 2022/10/07 15:08:56 by thandel          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,7 +23,7 @@ int		ft_isalnum(int c);
 int		ft_isdigit(int c);
 int		ft_isascii(int c);
 int		ft_isprint(int c);
-int		ft_strlen(int c);
+char	ft_strlen(char *src);
 int		ft_memset(int c);
 int		ft_bzero(int c);
 int		ft_memcpy(int c);
